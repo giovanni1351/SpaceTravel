@@ -1,0 +1,102 @@
+canvas{
+    display: flex;
+    margin: auto;
+    border: purple 9px solid;
+    background-image: url(a-17202525498312.jpg);
+    margin-top: 70px;
+    border-radius: 20px;
+}
+p{
+    display: flex;
+    margin: auto;
+    
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blue;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.botões{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: transparent 2px solid;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.botao:hover{
+    background-color: red;
+}
+a{
+    display: flex;
+    margin: auto;
+    color: black;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+body{
+    background-color: grey;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    font-size: 40px;
+    font-family: cursive;
+
+
+}
+input{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: purple;
+    font-family: cursive;
+    font-size: 150%;
+}
+#dificuldades{
+    display: flex;
+    justify-content: center;
+
+}
+#matrix{
+    display: none;
+}
+#jogar{
+    display: none;
+}
+#win{
+    display: none;
+
+}
+#restart{
+    display: none;
+}
+input:hover{
+    background-color: darkblue;
+}
+#botoes{
+    display: none;
+}
+#abrir{
+    display: none;
+}
+

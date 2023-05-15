@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space Travel</title>
+    <link rel="icon" href="nave.png">
+    <link rel="stylesheet" href="SpaceTravel.css">
+
+
+</head>
+<body>
+<input class="menu" type="button" id="fechar" value="Menu" onclick="abrir()">
+<input class="menu" type="button" id="abrir" value="Menu" onclick="fechar()">
+<div class="botões" id="botoes">
+
+    <div class="botao">
+        <a href="introdução.html">Introdução</a></div>
+    <div class="botao">
+        <a href="SpaceTravel.html">SpaceTravel</a></div>
+    <div class="botao">
+        <a href="Desenvolvedores.html">Desenvolvedores</a></div>
+</div>
+</input>
+<h1>Space Travel</h1>
+<input type="button" id="jogar" onclick="jogar()" value="Jogar">
+<div id="dificuldades">
+<input type="button" id="facil" onclick="facil()" value="Facil">
+<input type="button" id="medio" onclick="medio()" value="Médio">
+<input type="button" id="dificil" onclick="dificil()" value="Dificil">
+<input type="button" id="infinito" onclick="infinito()" value="Infinito">
+</div>
+<h1 id="win">PARABENS!!!!!</h1>
+<input type="button" id="restart" onclick="reiniciar()" value="Restart">
+<canvas id="matrix" width="900" height="600"></canvas>
+<script src="SpaceTravel.js"></script>
+<script src="menu.js"></script>
+<script src="menu.js"></script>
+</body>
+</html>
